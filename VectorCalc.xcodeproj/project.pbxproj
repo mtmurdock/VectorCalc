@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA8ADB9314C61D4500EF0441 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8ADB9214C61D4500EF0441 /* UIKit.framework */; };
+		DA8ADB9514C61D4500EF0441 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8ADB9414C61D4500EF0441 /* Foundation.framework */; };
+		DA8ADB9714C61D4500EF0441 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8ADB9614C61D4500EF0441 /* CoreGraphics.framework */; };
+		DA8ADB9D14C61D4500EF0441 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA8ADB9B14C61D4500EF0441 /* InfoPlist.strings */; };
+		DA8ADB9F14C61D4500EF0441 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8ADB9E14C61D4500EF0441 /* main.m */; };
+		DA8ADBA314C61D4500EF0441 /* MMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8ADBA214C61D4500EF0441 /* MMAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DA8ADB8E14C61D4500EF0441 /* VectorCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VectorCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA8ADB9214C61D4500EF0441 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DA8ADB9414C61D4500EF0441 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DA8ADB9614C61D4500EF0441 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DA8ADB9A14C61D4500EF0441 /* VectorCalc-Info.plist */ = {isa = PBXFileReference; path = "VectorCalc-Info.plist"; sourceTree = "<group>"; };
+		DA8ADB9C14C61D4500EF0441 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DA8ADB9E14C61D4500EF0441 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA8ADBA014C61D4500EF0441 /* VectorCalc-Prefix.pch */ = {isa = PBXFileReference; path = "VectorCalc-Prefix.pch"; sourceTree = "<group>"; };
+		DA8ADBA114C61D4500EF0441 /* MMAppDelegate.h */ = {isa = PBXFileReference; path = MMAppDelegate.h; sourceTree = "<group>"; };
+		DA8ADBA214C61D4500EF0441 /* MMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA8ADB8B14C61D4500EF0441 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA8ADB9314C61D4500EF0441 /* UIKit.framework in Frameworks */,
+				DA8ADB9514C61D4500EF0441 /* Foundation.framework in Frameworks */,
+				DA8ADB9714C61D4500EF0441 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA8ADB8314C61D4400EF0441 = {
+			isa = PBXGroup;
+			children = (
+				DA8ADB9814C61D4500EF0441 /* VectorCalc */,
+				DA8ADB9114C61D4500EF0441 /* Frameworks */,
+				DA8ADB8F14C61D4500EF0441 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA8ADB8F14C61D4500EF0441 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA8ADB8E14C61D4500EF0441 /* VectorCalc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA8ADB9114C61D4500EF0441 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA8ADB9214C61D4500EF0441 /* UIKit.framework */,
+				DA8ADB9414C61D4500EF0441 /* Foundation.framework */,
+				DA8ADB9614C61D4500EF0441 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA8ADB9814C61D4500EF0441 /* VectorCalc */ = {
+			isa = PBXGroup;
+			children = (
+				DA8ADBA114C61D4500EF0441 /* MMAppDelegate.h */,
+				DA8ADBA214C61D4500EF0441 /* MMAppDelegate.m */,
+				DA8ADB9914C61D4500EF0441 /* Supporting Files */,
+			);
+			path = VectorCalc;
+			sourceTree = "<group>";
+		};
+		DA8ADB9914C61D4500EF0441 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA8ADB9A14C61D4500EF0441 /* VectorCalc-Info.plist */,
+				DA8ADB9B14C61D4500EF0441 /* InfoPlist.strings */,
+				DA8ADB9E14C61D4500EF0441 /* main.m */,
+				DA8ADBA014C61D4500EF0441 /* VectorCalc-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA8ADB8D14C61D4500EF0441 /* VectorCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA8ADBA614C61D4500EF0441 /* Build configuration list for PBXNativeTarget "VectorCalc" */;
+			buildPhases = (
+				DA8ADB8A14C61D4500EF0441 /* Sources */,
+				DA8ADB8B14C61D4500EF0441 /* Frameworks */,
+				DA8ADB8C14C61D4500EF0441 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VectorCalc;
+			productName = VectorCalc;
+			productReference = DA8ADB8E14C61D4500EF0441 /* VectorCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA8ADB8514C61D4400EF0441 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = DA8ADB8814C61D4400EF0441 /* Build configuration list for PBXProject "VectorCalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DA8ADB8314C61D4400EF0441;
+			productRefGroup = DA8ADB8F14C61D4500EF0441 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA8ADB8D14C61D4500EF0441 /* VectorCalc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA8ADB8C14C61D4500EF0441 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA8ADB9D14C61D4500EF0441 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA8ADB8A14C61D4500EF0441 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA8ADB9F14C61D4500EF0441 /* main.m in Sources */,
+				DA8ADBA314C61D4500EF0441 /* MMAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DA8ADB9B14C61D4500EF0441 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA8ADB9C14C61D4500EF0441 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA8ADBA414C61D4500EF0441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA8ADBA514C61D4500EF0441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA8ADBA714C61D4500EF0441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VectorCalc/VectorCalc-Prefix.pch";
+				INFOPLIST_FILE = "VectorCalc/VectorCalc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DA8ADBA814C61D4500EF0441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VectorCalc/VectorCalc-Prefix.pch";
+				INFOPLIST_FILE = "VectorCalc/VectorCalc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA8ADB8814C61D4400EF0441 /* Build configuration list for PBXProject "VectorCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA8ADBA414C61D4500EF0441 /* Debug */,
+				DA8ADBA514C61D4500EF0441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA8ADBA614C61D4500EF0441 /* Build configuration list for PBXNativeTarget "VectorCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA8ADBA714C61D4500EF0441 /* Debug */,
+				DA8ADBA814C61D4500EF0441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA8ADB8514C61D4400EF0441 /* Project object */;
+}
