@@ -23,7 +23,7 @@
 		DA18ADC414C89EE000B4FBE0 /* MMExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMExtensions.h; sourceTree = "<group>"; };
 		DA18ADC614C89F4F00B4FBE0 /* MMExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMExtensions.m; sourceTree = "<group>"; };
 		DA18ADCC14C8A83200B4FBE0 /* MMVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMVector.h; sourceTree = "<group>"; };
-		DA18ADCD14C8A83200B4FBE0 /* MMVector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMVector.m; sourceTree = "<group>"; };
+		DA18ADCD14C8A83200B4FBE0 /* MMVector.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; path = MMVector.m; sourceTree = "<group>"; };
 		DA18ADD614C8BEF300B4FBE0 /* MMVectorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMVectorCell.h; sourceTree = "<group>"; };
 		DA18ADD714C8BEF300B4FBE0 /* MMVectorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMVectorCell.m; sourceTree = "<group>"; };
 		DA48AD6F14C7B9160058B4D8 /* MMMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMMainViewController.h; sourceTree = "<group>"; };
