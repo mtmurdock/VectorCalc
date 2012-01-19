@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA18ADC714C89F4F00B4FBE0 /* MMExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = DA18ADC614C89F4F00B4FBE0 /* MMExtensions.m */; };
+		DA18ADCE14C8A83200B4FBE0 /* MMVector.m in Sources */ = {isa = PBXBuildFile; fileRef = DA18ADCD14C8A83200B4FBE0 /* MMVector.m */; };
+		DA18ADD814C8BEF300B4FBE0 /* MMVectorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA18ADD714C8BEF300B4FBE0 /* MMVectorCell.m */; };
+		DA48AD7114C7B9160058B4D8 /* MMMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA48AD7014C7B9160058B4D8 /* MMMainViewController.m */; };
 		DA8ADB9314C61D4500EF0441 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8ADB9214C61D4500EF0441 /* UIKit.framework */; };
 		DA8ADB9514C61D4500EF0441 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8ADB9414C61D4500EF0441 /* Foundation.framework */; };
 		DA8ADB9714C61D4500EF0441 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8ADB9614C61D4500EF0441 /* CoreGraphics.framework */; };
@@ -16,15 +20,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA18ADC414C89EE000B4FBE0 /* MMExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMExtensions.h; sourceTree = "<group>"; };
+		DA18ADC614C89F4F00B4FBE0 /* MMExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMExtensions.m; sourceTree = "<group>"; };
+		DA18ADCC14C8A83200B4FBE0 /* MMVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMVector.h; sourceTree = "<group>"; };
+		DA18ADCD14C8A83200B4FBE0 /* MMVector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMVector.m; sourceTree = "<group>"; };
+		DA18ADD614C8BEF300B4FBE0 /* MMVectorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMVectorCell.h; sourceTree = "<group>"; };
+		DA18ADD714C8BEF300B4FBE0 /* MMVectorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMVectorCell.m; sourceTree = "<group>"; };
+		DA48AD6F14C7B9160058B4D8 /* MMMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMMainViewController.h; sourceTree = "<group>"; };
+		DA48AD7014C7B9160058B4D8 /* MMMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMMainViewController.m; sourceTree = "<group>"; };
 		DA8ADB8E14C61D4500EF0441 /* VectorCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VectorCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA8ADB9214C61D4500EF0441 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DA8ADB9414C61D4500EF0441 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DA8ADB9614C61D4500EF0441 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		DA8ADB9A14C61D4500EF0441 /* VectorCalc-Info.plist */ = {isa = PBXFileReference; path = "VectorCalc-Info.plist"; sourceTree = "<group>"; };
+		DA8ADB9A14C61D4500EF0441 /* VectorCalc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VectorCalc-Info.plist"; sourceTree = "<group>"; };
 		DA8ADB9C14C61D4500EF0441 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DA8ADB9E14C61D4500EF0441 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DA8ADBA014C61D4500EF0441 /* VectorCalc-Prefix.pch */ = {isa = PBXFileReference; path = "VectorCalc-Prefix.pch"; sourceTree = "<group>"; };
-		DA8ADBA114C61D4500EF0441 /* MMAppDelegate.h */ = {isa = PBXFileReference; path = MMAppDelegate.h; sourceTree = "<group>"; };
+		DA8ADBA014C61D4500EF0441 /* VectorCalc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VectorCalc-Prefix.pch"; sourceTree = "<group>"; };
+		DA8ADBA114C61D4500EF0441 /* MMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMAppDelegate.h; sourceTree = "<group>"; };
 		DA8ADBA214C61D4500EF0441 /* MMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMAppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -42,6 +54,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA18ADC814C8A75F00B4FBE0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DA18ADD614C8BEF300B4FBE0 /* MMVectorCell.h */,
+				DA18ADD714C8BEF300B4FBE0 /* MMVectorCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		DA18ADC914C8A76A00B4FBE0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DA48AD6F14C7B9160058B4D8 /* MMMainViewController.h */,
+				DA48AD7014C7B9160058B4D8 /* MMMainViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		DA18ADCA14C8A77B00B4FBE0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DA18ADCC14C8A83200B4FBE0 /* MMVector.h */,
+				DA18ADCD14C8A83200B4FBE0 /* MMVector.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		DA18ADCB14C8A79300B4FBE0 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				DA18ADC414C89EE000B4FBE0 /* MMExtensions.h */,
+				DA18ADC614C89F4F00B4FBE0 /* MMExtensions.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
 		DA8ADB8314C61D4400EF0441 = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +120,10 @@
 		DA8ADB9814C61D4500EF0441 /* VectorCalc */ = {
 			isa = PBXGroup;
 			children = (
+				DA18ADCB14C8A79300B4FBE0 /* Utilities */,
+				DA18ADCA14C8A77B00B4FBE0 /* Models */,
+				DA18ADC914C8A76A00B4FBE0 /* Controllers */,
+				DA18ADC814C8A75F00B4FBE0 /* Views */,
 				DA8ADBA114C61D4500EF0441 /* MMAppDelegate.h */,
 				DA8ADBA214C61D4500EF0441 /* MMAppDelegate.m */,
 				DA8ADB9914C61D4500EF0441 /* Supporting Files */,
@@ -153,6 +205,10 @@
 			files = (
 				DA8ADB9F14C61D4500EF0441 /* main.m in Sources */,
 				DA8ADBA314C61D4500EF0441 /* MMAppDelegate.m in Sources */,
+				DA48AD7114C7B9160058B4D8 /* MMMainViewController.m in Sources */,
+				DA18ADC714C89F4F00B4FBE0 /* MMExtensions.m in Sources */,
+				DA18ADCE14C8A83200B4FBE0 /* MMVector.m in Sources */,
+				DA18ADD814C8BEF300B4FBE0 /* MMVectorCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +312,7 @@
 				DA8ADBA814C61D4500EF0441 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
