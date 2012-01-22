@@ -10,6 +10,7 @@
 		DA18ADC714C89F4F00B4FBE0 /* MMExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = DA18ADC614C89F4F00B4FBE0 /* MMExtensions.m */; };
 		DA18ADCE14C8A83200B4FBE0 /* MMVector.m in Sources */ = {isa = PBXBuildFile; fileRef = DA18ADCD14C8A83200B4FBE0 /* MMVector.m */; };
 		DA18ADD814C8BEF300B4FBE0 /* MMVectorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA18ADD714C8BEF300B4FBE0 /* MMVectorCell.m */; };
+		DA18ADDB14C8CD1600B4FBE0 /* MMCreateOrEditVectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA18ADDA14C8CD1600B4FBE0 /* MMCreateOrEditVectorViewController.m */; };
 		DA48AD7114C7B9160058B4D8 /* MMMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA48AD7014C7B9160058B4D8 /* MMMainViewController.m */; };
 		DA8ADB9314C61D4500EF0441 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8ADB9214C61D4500EF0441 /* UIKit.framework */; };
 		DA8ADB9514C61D4500EF0441 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8ADB9414C61D4500EF0441 /* Foundation.framework */; };
@@ -26,6 +27,8 @@
 		DA18ADCD14C8A83200B4FBE0 /* MMVector.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; path = MMVector.m; sourceTree = "<group>"; };
 		DA18ADD614C8BEF300B4FBE0 /* MMVectorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMVectorCell.h; sourceTree = "<group>"; };
 		DA18ADD714C8BEF300B4FBE0 /* MMVectorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMVectorCell.m; sourceTree = "<group>"; };
+		DA18ADD914C8CD1600B4FBE0 /* MMCreateOrEditVectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMCreateOrEditVectorViewController.h; sourceTree = "<group>"; };
+		DA18ADDA14C8CD1600B4FBE0 /* MMCreateOrEditVectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMCreateOrEditVectorViewController.m; sourceTree = "<group>"; };
 		DA48AD6F14C7B9160058B4D8 /* MMMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMMainViewController.h; sourceTree = "<group>"; };
 		DA48AD7014C7B9160058B4D8 /* MMMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMMainViewController.m; sourceTree = "<group>"; };
 		DA8ADB8E14C61D4500EF0441 /* VectorCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VectorCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +71,8 @@
 			children = (
 				DA48AD6F14C7B9160058B4D8 /* MMMainViewController.h */,
 				DA48AD7014C7B9160058B4D8 /* MMMainViewController.m */,
+				DA18ADD914C8CD1600B4FBE0 /* MMCreateOrEditVectorViewController.h */,
+				DA18ADDA14C8CD1600B4FBE0 /* MMCreateOrEditVectorViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -209,6 +214,7 @@
 				DA18ADC714C89F4F00B4FBE0 /* MMExtensions.m in Sources */,
 				DA18ADCE14C8A83200B4FBE0 /* MMVector.m in Sources */,
 				DA18ADD814C8BEF300B4FBE0 /* MMVectorCell.m in Sources */,
+				DA18ADDB14C8CD1600B4FBE0 /* MMCreateOrEditVectorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -28,8 +28,10 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
+    UINavigationController* navControl = [[UINavigationController alloc] initWithRootViewController:vc];
+    navControl.navigationBar.hidden = true;
     
-    [self.window addSubview:vc.view];
+    [self.window addSubview:navControl.view];
     
     return YES;
 }

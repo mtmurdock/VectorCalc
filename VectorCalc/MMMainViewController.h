@@ -14,4 +14,6 @@
     NSMutableArray* _vectors;
 }
 
+@property (nonatomic, retain) NSMutableArray* vectors;
+
 @end

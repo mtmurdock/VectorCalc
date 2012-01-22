@@ -10,8 +10,10 @@
 #import "MMExtensions.h"
 #import "MMVector.h"
 #import "MMVectorCell.h"
+#import "MMCreateOrEditVectorViewController.h"
 
 @implementation MMMainViewController
+@synthesize vectors = _vectors;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -64,7 +66,9 @@
 
 - (void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    
+    MMCreateOrEditVectorViewController* vc = [[MMCreateOrEditVectorViewController alloc] init];
+    UINavigationController* nc = [self navigationController];
+    [nc pushViewController:vc animated:true];
 }
 
 - (int) tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section

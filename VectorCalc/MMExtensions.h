@@ -7,9 +7,22 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "MMVector.h"
 
 @interface UITableView ()
 
 + (UITableView*) tableViewForViewController:(UIViewController*)vc;
+
+@end
+
+@interface UITextField ()
+
++ (UITextField *)textFieldRounded;
+
+@end
+
+@interface UISlider ()
+
++ (UISlider *)vectorSlider;
 
 @end
