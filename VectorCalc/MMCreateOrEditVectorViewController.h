@@ -20,9 +20,11 @@
     UIButton* _okButton;
     UIButton* _cancelButton;
     MMVector* _vector;
+    UIViewController* _parent;
 }
 
 @property (nonatomic, retain) MMVector* vector;
+@property (nonatomic, retain) UIViewController* parent;
 
 - (void) xSliderAction:(id)sender;
 - (void) ySliderAction:(id)sender;

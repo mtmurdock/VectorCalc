@@ -29,7 +29,7 @@
     [self.window makeKeyAndVisible];
     
     UINavigationController* navControl = [[UINavigationController alloc] initWithRootViewController:vc];
-    navControl.navigationBar.hidden = true;
+    //navControl.navigationBar.hidden = true;
     
     [self.window addSubview:navControl.view];
     

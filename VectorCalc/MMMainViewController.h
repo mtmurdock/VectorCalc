@@ -12,8 +12,19 @@
 {
     UITableView* _tableView;
     NSMutableArray* _vectors;
+    UIView* _buttonSheet;
+    UIButton* _editButton;
+    UIButton* _deleteButton;
 }
 
 @property (nonatomic, retain) NSMutableArray* vectors;
+@property (nonatomic, retain) UITableView* tableView;
+
+- (void)addAction:(id)sender;
+- (void)editAction:(id)sender;
+- (void)deleteAction:(id)sender;
+
+- (void)hideButtonSheet;
+- (void)showButtonSheet;
 
 @end
