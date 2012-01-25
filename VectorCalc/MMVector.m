@@ -27,14 +27,16 @@
     return sqrtf(powf(_x, 2) + powf(_y, 2) + powf(_z, 2));
 }
 
+# pragma mark class methods
+
 + (float) dotProductOf:(MMVector*)v1 And:(MMVector*)v2
 {
-    return 0.0f;
+    return (v1.x * v2.x) + (v1.y * v2.y) + (v1.z * v2.z);
 }
 
 + (MMVector*) sumOf:(MMVector*)v1 And:(MMVector*)v2
 {
-    return nil;
+    return [[[MMVector alloc] initWithX:(v1.x + v2.x) Y:(v1.y + v2.y) Z:(v1.z + v2.z)] autorelease];
 }
 
 @end

@@ -8,7 +8,7 @@
 
 #import "MMVectorCell.h"
 
-static NSString* formatString = @"X:%.2f\t\t\tY:%.2f\t\t\tZ:%.2f";
+static NSString* formatString = @"(%.2f, %.2f, %.2f)";
 
 @implementation MMVectorCell
 @synthesize vector = _vector;

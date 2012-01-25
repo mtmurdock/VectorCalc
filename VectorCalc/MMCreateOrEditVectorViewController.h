@@ -11,12 +11,15 @@
 
 @interface MMCreateOrEditVectorViewController : UIViewController
 {
+    // labels
     UILabel* _xLabel;
     UILabel* _yLabel;
     UILabel* _zLabel;
+    //sliders
     UISlider* _xInput;
     UISlider* _yInput;
     UISlider* _zInput;
+    //buttons
     UIButton* _okButton;
     UIButton* _cancelButton;
     MMVector* _vector;
@@ -26,10 +29,10 @@
 @property (nonatomic, retain) MMVector* vector;
 @property (nonatomic, retain) UIViewController* parent;
 
+# pragma mark actions
 - (void) xSliderAction:(id)sender;
 - (void) ySliderAction:(id)sender;
 - (void) zSliderAction:(id)sender;
-
 - (void) okButtonAction:(id)sender;
 - (void) cancelButtonAction:(id)sender;
 

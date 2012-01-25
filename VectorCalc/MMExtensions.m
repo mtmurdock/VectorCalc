@@ -10,6 +10,7 @@
 
 @implementation UITableView (MMExtensions)
 
+// This is largely taken from UICatalog
 + (UITableView*) tableViewForViewController:(UIViewController<UITableViewDelegate, UITableViewDataSource>*)vc
 {
     UITableView* tableView = [[UITableView alloc] init];
@@ -27,6 +28,7 @@
 
 @implementation UITextField (MMExtensions)
 
+// This too is largely taken from UICatalog
 + (UITextField *)textFieldRounded
 {
 	UITextField* textFieldRounded;

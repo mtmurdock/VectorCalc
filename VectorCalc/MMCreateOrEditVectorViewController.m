@@ -16,8 +16,16 @@
 #define kTextFieldHeight    30.0
 #define kLabelWidth         80.0
 
+@interface MMCreateOrEditVectorViewController ()
+
+- (void) initGUI;
+
+@end
+
 @implementation MMCreateOrEditVectorViewController
 @synthesize vector = _vector, parent = _parent;
+
+# pragma mark initialization
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -28,13 +36,8 @@
     return self;
 }
 
-- (void) viewDidLoad
+- (void) initGUI
 {
-    if (self.vector != NULL)
-        self.navigationItem.title = @"Edit Vector";
-    else
-        self.navigationItem.title = @"New Vector";
-    
     // init elements
     _xLabel = [[UILabel alloc] init];
     _yLabel = [[UILabel alloc] init];
@@ -77,13 +80,13 @@
     
     // button frames
     CGRect okButtonFrame = CGRectInset(CGRectMake(0, 
-                                      windowFrame.size.height - kStdButtonHeight - 2*kPadding - 70,
-                                      windowFrame.size.width / 2, 
-                                      kStdButtonHeight + 2*kPadding), kPadding, kPadding);
+                                                  windowFrame.size.height - kStdButtonHeight - 2*kPadding - 70,
+                                                  windowFrame.size.width / 2, 
+                                                  kStdButtonHeight + 2*kPadding), kPadding, kPadding);
     CGRect cancelButtonFrame = CGRectInset(CGRectMake(windowFrame.size.width / 2, 
-                                      windowFrame.size.height - kStdButtonHeight - 2*kPadding - 70, 
-                                      windowFrame.size.width / 2, 
-                                      kStdButtonHeight + 2*kPadding), kPadding, kPadding);
+                                                      windowFrame.size.height - kStdButtonHeight - 2*kPadding - 70, 
+                                                      windowFrame.size.width / 2, 
+                                                      kStdButtonHeight + 2*kPadding), kPadding, kPadding);
     
     // apply frames
     [_xLabel setFrame:xLabelFrame];
@@ -121,10 +124,24 @@
     [self.view addSubview:_cancelButton];
 }
 
+# pragma mark application lifecycle
+
+- (void) viewDidLoad
+{
+    if (self.vector != NULL)
+        self.navigationItem.title = @"Edit Vector";
+    else
+        self.navigationItem.title = @"New Vector";
+    
+    [self initGUI];
+}
+
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     return YES;
 }
+
+# pragma mark actions
 
 - (void) xSliderAction:(id)sender
 {
@@ -171,6 +188,7 @@
 
 - (void) cancelButtonAction:(id)sender
 {
+    // pop controller
     [self.navigationController popViewControllerAnimated:YES];
 }
 
